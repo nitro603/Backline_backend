@@ -1,10 +1,12 @@
-package com.example.demo;
+package Backline;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
 
+@Import(TestcontainersConfiguration.class)
 @SpringBootTest
-class DemoApplicationTests {
+class BacklineApplicationTests {
 
 	@Test
 	void contextLoads() {
